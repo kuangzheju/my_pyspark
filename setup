@@ -1,0 +1,30 @@
+https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/courseware/d1f293d0cb53466dbb5c0cd81f55b45b/920d3370060540c8b21d56f05c64bdda/
+
+two free software packages (VirtualBox and Vagrant), and then download and install our VM image.
+
+Installing the Required Software Packages
+
+REQUIRED SOFTWARE PACKAGES
+
+There are two required free software packages:
+
+Oracle's Virtual Box
+Vagrant automatic VM configuration
+Note: If you already have either software package installed, makes sure that the versions are VirtualBox 4.3.28 (or later) and Vagrant 1.7.2 (or later).
+
+The following video segments walk you through the steps to download and install the required software packages on your machine, and to run your first Apache Spark notebook.
+
+1  Downloading and Installing VirtualBox
+
+2  Downloading and Installing Vagrant
+
+3. Downloading and installing the virtual machine 
+Downloading and installing the virtual machine
+
+Create a custom directory (e.g., for windows users c:\users\marco\myvagrant or for Mac/Linux users /home/marco/myvagrant)
+(Please note: VAGRANT_HOME can be set to change the directory where Vagrant stores global state. By default, this is set to '.vagrant.d' under your user profile. This is where boxes (base VMs) are stored, so it can actually be quite large on disk - please make sure you have enough space)
+Download this file (https://github.com/spark-mooc/mooc-setup/archive/master.zip) to the custom directory and unzip it.
+From the unzipped file, copy Vagrantfile to the custom directory you created in step #1 (NOTE: It must be named exactly "Vagrantfile" with no extension)
+Open a DOS prompt (Windows) or Terminal (Mac/Linux), change to the custom directory, and issue the command "vagrant up --provider=virtualbox"
+NOTE: On Microsoft Windows you may get a Windows Firewall exception popup regarding "vboxheadless".  Adding an exception is optional and does not seem to impact the Virtual Machine once it is installed.
+
