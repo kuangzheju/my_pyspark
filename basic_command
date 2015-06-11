@@ -1,0 +1,8 @@
+Basic Instructions for Using the Virtual Machine
+To start the VM, from a DOS prompt (Windows) or Terminal (Mac/Linux), issue the command "vagrant up".
+To stop the VM, from a DOS prompt (Windows) or Terminal (Mac/Linux), issue the command "vagrant halt". Note: You should always stop the VM before you log off, turn off, or reboot your computer.
+At the end of the course, to erase or delete the VM, from a DOS prompt (Windows) or terminal (Mac/Linux), issue the command "vagrant destroy". Warning: If you erase or delete the VM, you will lose any work you have done and data you have saved, and you will have download it again when you use the "vagrant up" command.
+Once the VM is running, to access the notebook, open a web browser to "http://localhost:8001/" (on Windows and Mac) or "http://127.0.0.1:8001/" (on Linux).
+NOTE: In step #4 above, try "http://localhost:8001/" first, if that doesn't work, try "http://127.0.0.1:8001/", the proper choice depends on the configuration of your computer.  We pre-configuted the virtual machine to by default start the iPython notebook on port 8001.  If you are having problems connecting to the notebook (neither of the two links works), you should check the output of the "vagrant up" command. It may be the case that there was a conflict on your computer with a program already using port 8001 and a higher port number was automatically used. If this occurs, you should use that port number instead of port 8001, and all the rest of the instructions will be the same.
+
+The following videos walk you through these basic steps.
