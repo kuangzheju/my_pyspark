@@ -1,0 +1,11 @@
+Running your first notebook will test your software setup and environment.
+
+If it is not already running, start the Virtual Machine by issuing issue the command "vagrant up" from a DOS prompt (Windows) or Terminal (Mac/Linux).
+You should have already downloaded and unzipped the master.zip file in the module "Downloading and installing the virtual machine".  The zip file contains the file "lab0_student.ipynb" that you will need in step #4.  You can view a read-only online version of the Spark iPython notebook here.
+Once the Virtual Machine is running, access the Jupyter web UI for running IPython notebooks by navigating your web browser to "http://localhost:8001" (or "http://127.0.0.1:8001/").
+On the Jupyter web page, use the Upload button to upload the "lab0_student.ipynb" Spark iPython notebook file that was mentioned in step #2.
+Select the file and run each cell - verify that you do not encounter any errors. 
+At the end of the notebook, instructions are included on how to export the notebook as a Python (.py) file and to submit that file to the autograder.
+The following videos walk you through the steps of running your first notebook.
+
+it essentially is a python in my browser!!!
